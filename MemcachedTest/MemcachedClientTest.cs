@@ -189,6 +189,22 @@ namespace MemcachedTest
 			}
 		}
 
+        [TestCase]
+        public void IncrementDefaultValueTest()
+        {
+            var key = MakeRandomKey(4);
+            using (MemcachedClient client = GetClient())
+            {
+                // Act
+                var result = client.Increment(key, 1, 1);
+                result = client.Increment(key, 1, 1);
+
+                // Assert
+                var trimmedValue = client.Get<string>(key).Trim();
+                Assert.AreEqual("2", trimmedValue);
+            }
+        }
+
 		[TestCase]
 		public void AddSetReplaceTest()
 		{

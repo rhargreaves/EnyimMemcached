@@ -1,0 +1,9 @@
+2014-12-20T16:55:03: Launching bolt session for c:\projects\enyimmemcached\.enyim.caching.boltdata - SessionId: a5c8f3e7-6b38-490f-ad40-e3e44fc1e2c4
+2014-12-20T16:55:05: GET http://127.0.0.1:11235/serveravailable.json 200 0.001s 
+2014-12-20T16:55:33: GET http://127.0.0.1:11235/serveravailable.json 200 0.001s 
+2014-12-20T16:55:34: GET http://127.0.0.1:11235/versioninfo.json 200 0.001s 
+2014-12-20T16:55:34: GET http://127.0.0.1:11235/serveravailable.json 200 0.002s 
+2014-12-20T16:55:34: GET http://127.0.0.1:11235/v1/licensed.json 200 0.001s 
+2014-12-20T16:55:39: Launching bolt session for c:\projects\enyimmemcached\.enyim.caching.boltdata - SessionId: 5b5ff555-0927-45d4-9b8e-092439e169dc
+2014-12-20T16:56:04: GET http://127.0.0.1:11235/serveravailable.json 200 0.001s 
+2014-12-20T16:56:15: Closing bolt session for c:\projects\enyimmemcached\.enyim.caching.boltdata - SessionId: 5b5ff555-0927-45d4-9b8e-092439e169dc
